@@ -1,0 +1,40 @@
+.modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .icons{
+    margin-left: 2px;
+  }
+
+  .click-style {
+    cursor: pointer;
+  }
+
+  .table-divider{
+    border-top: 2px solid  #004e9c ; 
+  }
+
+  .table th, .table td {
+    color: #333;
+    background-color: #fff;
+}
+
+/* Dodajte boju pozadine za selektovan red */
+.table-hover tbody tr:hover {
+    background-color: #f0f0f0;
+}
+
+.btn-save{
+  background-color:  #004e9c !important ;
+  color: white !important;
+}
+.btn-save:hover{
+  background-color: #033d77 !important;
+}
+
+.btn-cancel:hover{
+  background-color:lightgray !important;
+}

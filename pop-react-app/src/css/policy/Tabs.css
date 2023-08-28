@@ -1,0 +1,17 @@
+.tabs{
+    overflow: hidden;
+}
+
+.container-fluid{
+    overflow: hidden !important;
+}
+
+.nav-tabs{
+    background-color: transparent;
+    white-space: nowrap;
+    overflow: hidden !important;
+}
+
+.tab-content{
+     margin-top: 1rem;
+}

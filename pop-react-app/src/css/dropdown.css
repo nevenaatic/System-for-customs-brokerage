@@ -1,0 +1,31 @@
+.select-element {
+    color: darkblue; /* Promenite ovu vrednost prema vašim potrebama */
+}
+
+.dropdown-container .dropdown-toggle {
+    background-color: transparent;
+    border-color: darkblue;
+    color: darkblue;
+}
+
+.dropdown-container .dropdown-item {
+    color: black;
+}
+
+.dropdown-container .dropdown-item:hover {
+    background-color: lightblue;
+    color: darkblue;
+}
+
+.dropdown-container .dropdown-toggle:hover {
+    background-color: transparent !important;
+    color: darkblue !important;
+}
+
+.dropdown-container .dropdown-toggle:active,
+.dropdown-container .dropdown-toggle:focus {
+    background-color: transparent !important;
+    box-shadow: none !important;
+    border-color: blue !important;
+    color: darkblue !important;
+}

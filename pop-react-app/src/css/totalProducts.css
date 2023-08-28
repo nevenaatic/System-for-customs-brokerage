@@ -1,0 +1,39 @@
+.custom-table {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+}
+
+.rounded-border {
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid blue;
+  margin-left: 100px;
+}
+
+.custom-grid {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.custom-grid .k-grid-content {
+  background-color: white;
+  border-bottom: 1px solid blue;
+}
+
+.custom-grid td {
+  border-top: 1px solid blue;
+}
+
+.custom-grid th {
+  border-top: 1px solid blue;
+}
+
+.centered-text {
+  border-top: 1px solid blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  cursor: pointer;
+}

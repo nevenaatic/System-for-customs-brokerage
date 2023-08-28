@@ -1,0 +1,68 @@
+.company-role:hover {
+    text-decoration: underline;
+}
+
+.heading {
+    font-size: large;
+}
+
+.heading:hover {
+    color: #29b8f5;
+}
+
+.components-style {
+    font-size: large;
+    margin-right: 3rem;
+    cursor: pointer;
+}
+
+.question-style {
+    font-size: large;
+    margin-left: 3rem;
+    color:white !important;
+}
+.question-style:hover{
+    cursor: pointer;
+    color:#29b8f5;
+}
+
+.name-style {
+    font-size: large;
+    color:white !important;
+    font-size: 1.2rem;
+    margin-left: 8px;
+}
+
+.name-style:hover{
+    color:#29b8f5;
+    cursor: pointer;
+}
+
+.company-description {
+    color: white !important;
+}
+
+.company-description:hover {
+    color: #29b8f5 !important;
+}
+
+.company-role-text {
+    display: inline-block;
+    margin-right: 8px; /* Dodajte razmak sa desne strane teksta */
+   color: #29b8f5 
+  }
+  
+  .company-role-text:hover{
+   text-decoration: underline;
+  }
+
+  .right-content{
+    color: white;
+  }
+
+  .powered-by {
+    font-size: .9rem;
+    font-weight: 500;
+    color: white;
+    fill: white !important;
+}

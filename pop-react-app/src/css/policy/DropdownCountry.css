@@ -1,0 +1,9 @@
+.custom-toggle,
+.custom-toggle:focus,
+.custom-toggle:hover,
+.custom-toggle:active {
+    background-color: whitesmoke !important;
+    color: darkblue !important;
+    border-color: darkblue !important;
+}
+  

@@ -1,0 +1,20 @@
+.dropdown-container {
+    position: relative;
+    display: inline-block;
+    align-content: left;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: auto; /* Dodajte ovu liniju kako bi širina bila automatski prilagođena sadržaju */
+    border: none; /* Dodajte ovu liniju kako bi uklonili okvir menija */
+    border-top-left-radius: 0; /* Uklonite zaobljenje gornjeg levog ugla */
+    border-top-right-radius: 0; /* Uklonite zaobljenje gornjeg desnog ugla */
+    transform: translateX(-50%);
+  }
+
+  .dropdown-item{
+    text-decoration: none !important;
+  }

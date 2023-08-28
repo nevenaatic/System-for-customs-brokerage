@@ -1,0 +1,36 @@
+.policy-router {
+  margin-left: 1rem;
+  font-size: large;
+}
+
+h1 {
+  margin-top: 1rem !important;
+  margin-left: 1rem;
+  font-weight: 600 !important;
+  color: #004e9c !important;
+  font-size: 2em !important;
+  font-weight: bolder !important;
+}
+
+.input-container {
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.custom-input {
+  padding: 0.350rem 0.6rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  background-color: #f8f9fa;
+  background-clip: padding-box;
+  border: 1px solid #004e9c;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  width: 50%;
+  padding-top: 1.5px;
+}
+
+.custom-input:disabled {
+  background-color: #e9ecef;
+  cursor: not-allowed;
+}

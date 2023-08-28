@@ -1,0 +1,51 @@
+.save-btn{
+    color: white !important;
+    background-color: #004e9c !important;
+}
+
+.btn{
+    border-color: #004e9c !important;
+    margin-left: 10px;
+}
+.btn:hover{
+    color: gray;
+}
+
+.group-wrapper, .well {
+    border: 1px solid #2b80c2;
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    background: #fff;
+}
+
+.well {
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: whitesmoke;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+    border-color:  #004e9c ;
+}
+
+*, :after, :before {
+    box-sizing: inherit;
+}
+
+.h3{
+    color:  #004e9c !important;
+}
+
+.editing-row {
+    background-color: #c8e6c9 !important; /* Mint zelena boja */
+  }
+ 
+  
+  
+  
+  
+  
+  
