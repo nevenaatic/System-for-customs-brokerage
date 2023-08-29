@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Dropdown } from 'react-bootstrap';
-import '../css/policy/DropdownCountry.css'
+import '../../css/policy/DropdownCountry.css'
 
 export const DropdownCountry = ({ setCountry}) => {
     const [isDropdownOpen, setDropdownOpen] = useState(false);

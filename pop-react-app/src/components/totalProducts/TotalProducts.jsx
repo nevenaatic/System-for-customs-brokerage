@@ -4,7 +4,7 @@ import React, {useState, useEffect} from 'react';
 import { Grid, GridColumn as Column} from '@progress/kendo-react-grid';
 import DropdownRoles from './DropdownRoles';
 import PieChart from './PieChart'
-import '../../css/totalProducts.css'
+import '../../css/dashboard/TotalProducts.css'
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 
@@ -62,13 +62,13 @@ const TotalProducts = props => {
         const status = props.dataItem.stateType;
         let badge = null;
         if (status === 'INITIAL') {
-            badge = <span className='badge badge-pill badge-info'>Initial</span>;
+            badge = <span className='badge badge-pill badge-info' style={{backgroundColor:'#B5BAC0', color:'white'}}>Initial</span>;
         } else if (status === 'NOT_READY') {
-            badge = <span className='badge badge-pill badge-warning'>Not Ready</span>;
+            badge = <span className='badge badge-pill badge-warning' style={{backgroundColor:'#FF6813', color:'white'}} >Not Ready</span>;
         } else if (status === 'READY') {
-            badge = <span className='badge badge-pill badge-neutral'>Ready</span>;
+            badge = <span className='badge badge-pill badge-neutral' style={{backgroundColor:'#2B80C2', color:'white'}} >Ready</span>;
         } else if (status === 'SENT') {
-            badge = <span className='badge badge-pill badge-success'>Sent</span>;
+            badge = <span className='badge badge-pill badge-success' style={{backgroundColor:'#004E9C', color:'white'}} >Sent</span>;
         }
         return <td>{badge}</td>;
     };
@@ -113,15 +113,16 @@ const TotalProducts = props => {
                             </div>
                         </div>
                     </div>
-                    <div style={{ display: 'flex', flexDirection: 'row' }}>
-                    <div style={{ width: '70%'}}> 
+                    <div style={{ display: 'flex', flexDirection: 'row', width:'100%' }}>
+                    <div style={{ width: '100%'}}> 
                         <Grid
-                            className='custom-grid'
+                            className='custom-grid-l'
                             data={products}
                             total={products.length}
                             sortable={true}
+                            style={{ width: '100%'}}
                         >
-                            <Column field='tsiProdId' title='Product ID' />
+                            <Column field='tsiProdId' title='Product ID'  style={{ width: '10rem !important'}}/>
                             <Column field='stdDesc' title='Description' />
                             <Column field='ctryCode' title='Country' />
                             <Column field='stateType' title='Status' cell={statusStyling}/>
@@ -137,7 +138,7 @@ const TotalProducts = props => {
                     <Modal.Title>Product Analysis Error</Modal.Title>
                     </Modal.Header>
                     <Modal.Body>
-                        <table className='custom-grid'>
+                        <table className='custom-grid-l'>
                             <thead>
                                 <tr>
                                     <th>ID</th>

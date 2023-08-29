@@ -1,5 +1,5 @@
 import React from 'react';
-import { Chart, ChartSeries, ChartSeriesItem,ChartLegendItem, ChartLegend } from '@progress/kendo-react-charts';
+import { Chart, ChartSeries, ChartSeriesItem, ChartLegend } from '@progress/kendo-react-charts';
 
 const PieChart = props => {
 
@@ -30,7 +30,8 @@ const PieChart = props => {
       <Chart>
           <ChartLegend position="bottom" markerType="circle"/>
           <ChartSeries>
-              <ChartSeriesItem type="pie" data={coloredChartData} field="value" categoryField="category" />
+              {/* <ChartSeriesItem type="pie" data={coloredChartData} field="value" categoryField="category" /> */}
+              <ChartSeriesItem type="pie" data={coloredChartData} field="value" categoryField="category.value" />
           </ChartSeries>
       </Chart>
     );

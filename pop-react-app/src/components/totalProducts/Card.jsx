@@ -1,7 +1,7 @@
 import React from 'react';
 import TotalProducts from './TotalProducts';
 
-const Card = props => {
+export const Card = props => {
     return (
         <div className="card" style={{ border:'1px solid blue'}}>
         <div className="card-body">
@@ -11,4 +11,3 @@ const Card = props => {
     );
 };
 
-export default Card;

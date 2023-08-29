@@ -1,7 +1,7 @@
 .custom-table {
   border-collapse: separate;
   border-spacing: 0;
-  width: 100%;
+  width: 100% !important;
 }
 
 .rounded-border {
@@ -11,14 +11,16 @@
   margin-left: 100px;
 }
 
-.custom-grid {
+.custom-grid-l {
   border-collapse: separate;
   border-spacing: 0;
+  width: 100%;
 }
 
 .custom-grid .k-grid-content {
   background-color: white;
   border-bottom: 1px solid blue;
+  width: 100% !important;
 }
 
 .custom-grid td {
@@ -27,6 +29,7 @@
 
 .custom-grid th {
   border-top: 1px solid blue;
+  width: 100% !important;
 }
 
 .centered-text {
@@ -36,4 +39,5 @@
   align-items: center;
   height: 100%;
   cursor: pointer;
+  width: 100% !important;
 }

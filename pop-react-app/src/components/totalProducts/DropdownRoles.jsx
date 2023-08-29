@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import { Dropdown } from 'react-bootstrap';
-import '../../css/dropdown.css';
+import '../../css/dashboard/dropdown.css';
 
 const DropdownRoles = (props) => {
     const [selectedOption, setSelectedOption] = useState('ALL');

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCaretRight } from '@fortawesome/free-solid-svg-icons';
 import '../../css/policy/Policy.css'
-import { DropdownCountry } from '../DropdownCountry';
+import { DropdownCountry } from './DropdownCountry';
 import { Tabs } from '../policy/Tabs';
 
 export const Policy = () => {
