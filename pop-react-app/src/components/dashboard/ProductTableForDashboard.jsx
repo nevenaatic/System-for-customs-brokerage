@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
-import products from '../storage/products';
+import products from '../../storage/products';
 import { format } from 'date-fns';
-import '../css/tsi-ui-refresh.css'
+import '../../css/tsi-ui-refresh.css'
 import Filters from './Filters';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faEyeSlash,faEye} from '@fortawesome/free-solid-svg-icons';

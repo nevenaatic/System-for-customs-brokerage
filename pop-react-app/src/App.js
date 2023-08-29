@@ -1,9 +1,9 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Footer } from './components/Footer';
-import { Header } from './components/Header';
+import { Footer } from './components/header-and-footer/Footer';
+import { Header } from './components/header-and-footer/Header';
 import React, { useEffect } from 'react';
-import { Dashboard } from './components/Dashboard';
+import { Dashboard } from './components/dashboard/Dashboard';
 import { MenuHeader } from './components/sidebar/MenuHeader';
 
 function App() {

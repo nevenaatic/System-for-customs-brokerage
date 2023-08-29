@@ -1,4 +1,4 @@
-import '../css/Header.css'
+import '../../css/header-and-footer/Header.css'
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMagnifyingGlass, faUser, faQuestion } from '@fortawesome/free-solid-svg-icons'
